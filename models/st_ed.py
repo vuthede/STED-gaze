@@ -31,7 +31,8 @@ import numpy as np
 import torch.nn.functional as F
 import lpips
 config = DefaultConfig()
-
+# Devu added
+config.import_json("/home/vuthede/STED-gaze/config/ST-ED.json")
 
 class STED(nn.Module):
 
